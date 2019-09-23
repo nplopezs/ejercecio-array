@@ -79,7 +79,10 @@ public class ArrayListCancionesApp {
 	// COMPLETAR
 	public static ArrayList<Cancion> 
 	mayoresA(List<Cancion> cancion, Cancion cancionComp){
-	
+            ArrayList<Cancion> filtro = new ArrayList<Cancion>();
+            for(Cancion can:cancion)
+                if(can.compareTo(cancionComp)>0)
+                    filtro.add(can);
 		
 		return null;		
 	}
