@@ -24,12 +24,17 @@ public class ArrayListCancionesApp {
 		try {
 			scan=new Scanner(new FileReader("Canciones.txt"));
 			// COMPLETAR Lectura del archivo Canciones.txt y creacci�n del ArrayList de canciones: can
-			
-			
-			
-			
-			
-			
+                        while(scan.hasNext()){
+                            titulo = scan.next();
+                            artista = scan.next();
+                            genero = scan.next();
+                            precio = scan.nextDouble();
+                        
+                            cancion = new Cancion(titulo,artista,genero,precio);
+                            can.add(cancion);
+                        }
+                        
+				
 		} catch (FileNotFoundException e) {
 			System.err.println(e);
 		} catch (InputMismatchException e) {
