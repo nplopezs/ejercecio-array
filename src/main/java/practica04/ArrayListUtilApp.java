@@ -1,9 +1,9 @@
-
+package practica04;
 /*  Clase ArrayListUtilApp.java
-	Autor 1: <nombre alumno 1>  <matrícula alumno 1>
-	Autor 2: <nombre alumno 2>  <matrícula alumno 2>
+	Autor 1: <nombre alumno 1>  <matrï¿½cula alumno 1>
+	Autor 2: <nombre alumno 2>  <matrï¿½cula alumno 2>
 	Fecha:  <fecha de entrega>
-	Práctica # 4 - ArrayList
+	Prï¿½ctica # 4 - ArrayList
 
 */
  
