@@ -1,14 +1,10 @@
-
-
+package practica04;
 /*  Clase ArrayListCancionesApp.java
-	Autor 1: <nombre alumno 1>  <matrícula alumno 1>
-	Autor 2: <nombre alumno 2>  <matrícula alumno 2>
+	Autor 1: <nombre alumno 1>  <matrï¿½cula alumno 1>
+	Autor 2: <nombre alumno 2>  <matrï¿½cula alumno 2>
 	Fecha:  <fecha de entrega>
-	Práctica # 4 - ArrayList
-
-*/
- 
-import java.io.*;
+	Prï¿½ctica # 4 - ArrayList*/
+ import java.io.*;
 import java.util.*;
  
 public class ArrayListCancionesApp {
@@ -27,7 +23,7 @@ public class ArrayListCancionesApp {
 		
 		try {
 			scan=new Scanner(new FileReader("Canciones.txt"));
-			// COMPLETAR Lectura del archivo Canciones.txt y creacción del ArrayList de canciones: can
+			// COMPLETAR Lectura del archivo Canciones.txt y creacciï¿½n del ArrayList de canciones: can
 			
 			
 			
