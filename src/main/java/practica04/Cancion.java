@@ -1,5 +1,4 @@
-
-
+package practica04;
 /*
  * Clase Cancion
  * Autor: Angeles Junco
