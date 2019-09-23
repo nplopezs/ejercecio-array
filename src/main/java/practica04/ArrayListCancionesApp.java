@@ -64,9 +64,15 @@ public class ArrayListCancionesApp {
 	// COMPLETAR
 	public static void filtraR(List<Cancion> cancion, 
 			int indice, String str, ArrayList<Cancion> filtro) {
-		
-			
-
+        // caso base
+            if(indice < 0)
+                return;
+            //calculo
+            if(cancion.get(indice).getGenero().equalsIgnoreCase(str)){
+                filtro.add(cancion.get(indice));
+            }
+            //llamada recursiva
+            filtraR(cancion,indice-1,str,filtro);
 	}
 
 	
