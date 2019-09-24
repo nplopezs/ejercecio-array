@@ -80,13 +80,17 @@ public class ArrayListUtilApp {
       	// AQUI COLOCA LA PRUEBA DE COLECCIONES
       	System.out.println("\n\n***  Probando la clase Collections sobre el ArrayList a  ***");
      	
+        Collections.sort(a);
       	System.out.println("\nArrayList de enteros ordenado: " + a);
       	
+        Collections.reverse(a);
       	System.out.println("\nArrayList de enteros invertido: " + a);
       	
+        Collections.shuffle(a);
       	System.out.println("\nArrayList de enteros desordenado: " + a);
-		
-		System.out.println("\nArrayList de enteros ordenado: " + a);
+	
+        Collections.sort(a);
+	System.out.println("\nArrayList de enteros ordenado: " + a);
       
       
       	
@@ -102,9 +106,13 @@ public class ArrayListUtilApp {
 	
 
  
-	public static<T extends Comparable<? super T>>  
-	void eliminaMayores(List<T> lista, T target){
-	
+	public static<T extends Comparable<? super T>> void eliminaMayores(List<T> lista, T target){
+            for(int i=0;i< lista.size();i++){
+            if(lista.get(i).compareTo(target)>0){
+                lista.remove(lista.get(i));
+                        i--;
+                }
+            }
 	}
     
     
